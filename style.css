@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+}
+main {
+    border:  1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.d-grid,
+.form-floating {
+    width: 300px;
+    margin: 0 auto;
+    padding: 3px;
+}
+
+.user-info {
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;  
+    position: relative;
+    opacity: 0;
+}
+
+#user-link {
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 3px;
+    border-radius: 10px;
+}
+#user-link a{
+    text-decoration: none;
+    color: white;
+}
+
+#user-picture img {
+    width: 300px;
+    height: auto;
+}
+
+.number {
+    display: flex;
+    height: 40px;
+    position: absolute;
+    padding-left: 310px;
+    opacity: 0;
+    margin-right: auto;
+}
+#publicRepos,
+#publicGists,
+#followers,
+#following {
+    width: 140px;
+    height: auto;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding-top: 7px;
+}
+
+#publicRepos,
+#repoStars {
+    background-color: lightblue;
+}
+#publicGists,
+#repoWatchers {
+    background-color: lightslategray
+}
+#followers,
+#repoForks {
+    background-color: lightseagreen;
+}
+#following {
+    background-color: lightpink;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-top: 80px;
+    padding-left: 310px;
+
+}
+
+#company,
+#website,
+#location,
+#since {
+    padding: 10px;
+}
+#repoH2 {
+    margin: 10px;
+}
+
+#reponame {
+    display: flex;
+    justify-content: flex-end;
+    color: lightseagreen;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    margin: 10px;
+}
+
+#repoForks,
+#repoWatchers,
+#repoStars {
+    width: 100px;
+    height: auto;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#repoStars {
+    margin-left: auto;
+}
+
