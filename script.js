@@ -4,6 +4,7 @@ let repoH2 = document.getElementById("repoH2");
 let repoInfo = document.getElementById("repoinfo");
 
 searchBtn.addEventListener("click", search);
+
 // search();
 
 function search() {
@@ -62,7 +63,7 @@ function search() {
 
                     let repoName = document.createElement("span");
                     repoName.id = "reponame";
-                    repoName.innerHTML = jsonfetchDataRepos[i].name;
+                    repoName.innerHTML = `<a target=_blank href="${jsonfetchDataRepos[i].html_url}">${jsonfetchDataRepos[i].name}</a>`;
                     latestRepos.appendChild(repoName);
 
                     let repoStars = document.createElement("div");

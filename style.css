@@ -112,6 +112,11 @@ main {
     padding: 10px;
     position: relative;
     margin: 10px;
+    text-decoration: none;
+}
+#reponame a {
+    color: lightseagreen;
+    text-decoration: none;
 }
 
 #repoForks,
